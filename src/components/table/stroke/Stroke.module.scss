@@ -1,0 +1,54 @@
+.bodyStroke {
+  display: flex;
+  .info,
+  .comment {
+    &:first-child {
+      background-color: #b1cce7;
+    }
+
+    background-color: #d8e5f5;
+    padding: 20px;
+    border: 1px solid white;
+    flex: 1 1 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  :last-child {
+    justify-content: start;
+  }
+  .info {
+    height: 100%;
+  }
+}
+
+.idInput {
+  position: relative;
+  flex: 1 1 20%;
+  input {
+    width: 100%;
+  }
+}
+.viewCopyID {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+.inputComment {
+  padding-right: 30px;
+  position: relative;
+  width: 100%;
+}
+.set {
+  position: relative;
+}
+.sett {
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 50px;
+  height: 50px;
+}

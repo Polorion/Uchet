@@ -1,0 +1,36 @@
+.body {
+  padding: 20px;
+}
+.bodyTable {
+  margin-bottom: 10px;
+}
+.stat {
+  font-size: 20px;
+  color: #fff;
+}
+.headerBody {
+  display: flex;
+  background-color: #b1cce7;
+  div {
+    padding: 10px;
+    flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+  }
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  :first-child {
+    border-top-left-radius: 10px;
+  }
+  :last-child {
+    border-top-right-radius: 10px;
+  }
+}
+
+.inputAdd {
+  border-radius: 20px;
+  background-color: #959d95;
+  padding: 5px;
+  border: 3px solid #030202;
+}
